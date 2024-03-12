@@ -1,3 +1,33 @@
-p{
-    color: red;
+body{
+    background-color: rgb(35 39 47);
+    display: flex;
+    /* align-items: center; */
+    height: 100vh;
+}
+#login-form{
+    color: #fdfdfd
+}
+#login-form-container{
+    display: flex;
+    justify-content: center;
+}
+#login-form input:not(.form-check-input){
+    background: #9f9f9f;
+    border-color: 0d 6efd;
+    border: 0;
+    border-radius: 0;
+}
+.capitalized{
+    text-transform: capitalize;
+}
+.center{
+    margin: auto auto;
+}
+.form-title{
+    font-weight: 600;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.form-label{
+    text-transform: capitalize;
 }
