@@ -1,8 +1,16 @@
+/* google font-color #ffffffff 
+   background #rgb (53 53 53)
+*/
 body{
     background-color: rgb(35 39 47);
     display: flex;
     /* align-items: center; */
     height: 100vh;
+}
+#emailAlert{
+    color: rgb(243, 181, 65);
+    margin-top: 0.25rem;
+    font-size: .875em;
 }
 #login-form{
     color: #fdfdfd
