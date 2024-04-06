@@ -2,10 +2,12 @@
    background #rgb (53 53 53)
 */
 body{
+    padding: 0;
     background-color: rgb(35 39 47);
     display: flex;
-    /* align-items: center; */
     height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
 }
 #emailAlert{
     color: rgb(243, 181, 65);
@@ -38,4 +40,31 @@ body{
 }
 .form-label{
     text-transform: capitalize;
+}
+.header__nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    background: rgb(53 53 53);
+    font-family: sans-serif;
+}
+.menu__ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2vw 0 auto;
+}
+.menu__list-item{
+    color: #ffffffff;
+    list-style-type: none;
+    text-transform: capitalize;
+    padding-right: 2vw;
+}
+.menu__list-item:visited{
+    color: #fff;
+}
+.text-logo__heading-1{
+    color: #ffffffff;
+    text-transform: capitalize;
+    margin: 0 2vw;
 }

@@ -20,6 +20,7 @@ $hashedDBPassword = hash("sha256", $password);
 if($hashedDBPassword != $hashedFormPassword){ 
     echo "Invalid username or password";
 }else{
-    echo "$ID $username";
+    header("location: index.html");
+    exit;
 }
 ?>

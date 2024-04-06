@@ -1,3 +1,4 @@
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,12 +38,11 @@ while($row = mysqli_fetch_assoc($dbData)){
         //2-factor
         //return a session key
         //cookies
-        echo "Login successful"; 
+        echo "Login successful";
+        header('Location: localhost/quiz-classic/index.html');
+        exit;
     }
 };
-
-?><pre><?php
-// print_r($rowData->username);
-?></pre><?php #end ?>
+?>
 </body>
 </html>
